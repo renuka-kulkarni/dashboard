@@ -1,0 +1,42 @@
+.sidebar {
+    width: 240px;
+    background-color: #f4f4f4;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .sidebar-link {
+    display: block;
+    padding: 12px 20px; /* Increase padding for better clickability */
+    text-decoration: none;
+    color: #333; /* Darker text color */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .sidebar-link + .sidebar-link {
+    margin-top: 0; /* Ensure there's no margin between links */
+  }
+  
+  .sidebar-link:hover {
+    background-color: #e0e0e0; /* Light grey background on hover */
+    color: #000; /* Darken text color on hover */
+  }
+  
+  .sidebar-link.active {
+    background-color: #ddd; /* Active link background color */
+    color: #000; /* Darken text color for active link */
+  }
+  
+  .sidebar h3 {
+    color: #555; /* Section header text color */
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Top margin for section headers */
+  }
+  
+  /* Optional: Add styles for nested links */
+  .sidebar .nested-link {
+    padding-left: 30px; /* Indent nested links */
+  }

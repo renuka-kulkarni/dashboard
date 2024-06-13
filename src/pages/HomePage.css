@@ -1,0 +1,15 @@
+/* HomePage.css */
+
+/* Styles for the Home page content */
+.home-page {
+    text-align: center; /* Center-aligns the content */
+  }
+  
+  .home-page h2 {
+    color: white; /* Sets text color of h2 to white */
+  }
+  
+  .home-page p {
+    color: white; /* Sets text color of p to white */
+  }
+  
